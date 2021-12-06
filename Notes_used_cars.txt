@@ -1,0 +1,92 @@
+PROBLEM STATEMENT
+
+1. There is a need for a used car price prediction system. 
+2. Determine the worthiness of the car using a variety of features.
+3. It is important to know their actual market value while both buying and selling.
+4. For past few months their sales is down
+
+
+
+DATA Info
+
+1. Data Count : 9576 
+2. Price of the car 
+3. Car : Car Brand
+4. Body: Body Type- 6 Distinct
+	 1. Sedan 
+	 2. Crossover 
+	 3. Hatchback 
+	 4. Van 
+	 5. Vagon 
+	 6. Other
+5. Mileage: Mileage covered by the car.
+6. Engine Version: Engine Version of the car
+7. Engine Type: 4 Distinct 
+	 1. Petrol, 
+	 2. Diesel, 
+	 3. Gas,
+	 4. Other
+8. Car Model
+9. Drive: 3 Distinct Drive Types
+         1. Front Wheel Drive
+         2. Rear Wheel Drive
+         3. Full Wheel Drive
+10. Registration: Yes or No
+
+DATA DESCRIBE (for Numerical Values)
+
+1. Price: Outlier is present
+	1. No missing values
+	2. Mean price of the car USD 15633.00
+	3. STD of the price is USD 24106.00
+	4. Minimum price: 0 
+	5. Maximum price: USD 547800.00
+	6. 25% of the cars are below USD 4999.00
+	7. 50% of the cars are below USD 9200.00
+	8. 75% of the cars are below USD 16700.00
+
+2. Mileage: 
+	1. No missing values
+	2. Mean Mileage of the car 138K
+	3. STD of the Mileage is 98K
+	4. Minimum Mileage: 0 
+	5. Maximum Mileage: 999
+	6. 25% of the cars are below 70
+	7. 50% of the cars are below 128
+	8. 75% of the cars are below 194
+
+3. Engine Versions: 
+	1. Missing values
+	2. Mean EV of the car 2.6
+	3. STD of the EV is 5.9
+	4. Minimum EV: .100
+	5. Maximum EV: 99.99
+	6. 25% of the cars are below 1.6
+	7. 50% of the cars are below 2.0
+	8. 75% of the cars are below 2.5
+
+4. Year: 
+	1. No Missing values
+	2. Mean Year : 2006
+	3. STD of the Year is 7
+	4. Minimum Year: 1953
+	5. Maximum Year: 2016
+	6. 25% of the cars are below 2004
+	7. 50% of the cars are below 2008
+	8. 75% of the cars are below 2012
+
+DATA PRE- PROFILING
+
+MISSING VALUES:
+* Engine Version is missing 434 Values, which is 4.5% replace with mean  2.6
+* Drive is missing 511 Value, which is 5.3% , replace with mode.
+* We can check the missing values and replace the values or remove the row at processing.
+
+DUPLICATES:
+* 113 Duplicate data is seen in the dataset.
+* We need to check and review the duplicate values.
+
+
+
+
+ 
